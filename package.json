@@ -1,0 +1,18 @@
+{
+  "name": "Glavred",
+  "main": "./lib/atom-glvrd",
+  "version": "0.0.1",
+  "description": "Интеграция Главреда (glvrd.ru) с Атомом.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-glvrd:toggle"
+  },
+  "repository": "https://github.com/atom/atom-glvrd",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Check with Glavred",
+        "command": "atom-glvrd:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Glavred",
+          "submenu": [
+            {
+              "label": "Check",
+              "command": "atom-glvrd:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
