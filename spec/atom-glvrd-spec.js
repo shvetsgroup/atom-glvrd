@@ -16,8 +16,8 @@ describe('AtomGlvrd', () => {
   });
 
   describe('when the atom-glvrd:toggle event is triggered', () => {
-    it('hides and shows the modal panel', () => {
-      // Before the activation event the view is not on the DOM, and no panel
+    it('hides and shows the modal glvrdPanel', () => {
+      // Before the activation event the glvrdView is not on the DOM, and no glvrdPanel
       // has been created
       expect(workspaceElement.querySelector('.atom-glvrd')).not.toExist();
 
@@ -42,8 +42,8 @@ describe('AtomGlvrd', () => {
       });
     });
 
-    it('hides and shows the view', () => {
-      // This test shows you an integration test testing at the view level.
+    it('hides and shows the glvrdView', () => {
+      // This test shows you an integration test testing at the glvrdView level.
 
       // Attaching the workspaceElement to the DOM is required to allow the
       // `toBeVisible()` matchers to work. Anything testing visibility or focus
@@ -62,7 +62,7 @@ describe('AtomGlvrd', () => {
       });
 
       runs(() => {
-        // Now we can test for view visibility
+        // Now we can test for glvrdView visibility
         let atomGlvrdElement = workspaceElement.querySelector('.atom-glvrd');
         expect(atomGlvrdElement).toBeVisible();
         atom.commands.dispatch(workspaceElement, 'atom-glvrd:toggle');

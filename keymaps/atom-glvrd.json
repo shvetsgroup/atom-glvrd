@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "atom-glvrd:toggle"
+    "ctrl-alt-g": "atom-glvrd:toggle",
+    "escape": "atom-glvrd:close"
   }
 }

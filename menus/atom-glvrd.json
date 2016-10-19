@@ -17,6 +17,10 @@
             {
               "label": "Check",
               "command": "atom-glvrd:toggle"
+            },
+            {
+              "label": "Close",
+              "command": "atom-glvrd:close"
             }
           ]
         }
