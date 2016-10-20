@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "atom-glvrd:toggle"
   },
-  "repository": "https://github.com/atom/atom-glvrd",
+  "repository": "https://github.com/shvetsgroup/atom-glvrd",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
