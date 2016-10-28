@@ -25,5 +25,10 @@ describe("When I run glavred", () => {
 
         var panels = atom.workspace.getRightPanels();
         expect(panels.length).toBe(1);
-    })
+
+        setTimeout(function(){
+            var hintName = workspaceElement.querySelector('.hint-name');
+            expect(hintName.textContent).toBe("Слабый глагол");
+        }, 3000);
+    });
 });
