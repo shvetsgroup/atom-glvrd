@@ -5,9 +5,6 @@
   "description": "Интеграция Главреда (glvrd.ru) с Атомом.",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": "atom-glvrd:toggle"
-  },
   "repository": "https://github.com/shvetsgroup/atom-glvrd",
   "license": "MIT",
   "engines": {
