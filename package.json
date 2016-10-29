@@ -1,5 +1,5 @@
 {
-  "name": "Glavred",
+  "name": "glavred",
   "main": "./lib/atom-glvrd",
   "version": "0.1.0",
   "description": "Интеграция Главреда (glvrd.ru) с Атомом.",
