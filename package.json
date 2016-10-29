@@ -3,13 +3,13 @@
   "main": "./lib/atom-glvrd",
   "version": "0.0.1",
   "description": "Интеграция Главреда (glvrd.ru) с Атомом.",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/shvetsgroup/atom-glvrd",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "glvrd-http-api": "0.0.3"
   }
 }
