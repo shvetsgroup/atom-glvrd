@@ -1,7 +1,5 @@
 'use babel';
 
-import AtomGlvrdView from '../lib/atom-glvrd-view';
-
 describe("When I run glavred", () => {
     var workspaceElement, editor, editorElement;
 
@@ -19,6 +17,7 @@ describe("When I run glavred", () => {
             editorElement = atom.views.getView(editor);
         });
     });
+
     it("checks and highlights text", () => {
         editor.setText("Суть жизни неизвестна.");
         atom.commands.dispatch(editorElement, 'atom-glvrd:toggle');
@@ -26,9 +25,8 @@ describe("When I run glavred", () => {
         var panels = atom.workspace.getRightPanels();
         expect(panels.length).toBe(1);
 
-        setTimeout(function(){
-            var hintName = workspaceElement.querySelector('.hint-name');
-            expect(hintName.textContent).toBe("Слабый глагол");
-        }, 3000);
+
+        var score = workspaceElement.querySelector('.score-value');
+        expect(score.textContent).toBe("??");
     });
 });
