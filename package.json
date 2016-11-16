@@ -1,7 +1,7 @@
 {
   "name": "glavred",
   "main": "./lib/atom-glvrd",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Интеграция Главреда (glvrd.ru) с Атомом.",
   "keywords": [],
   "repository": "https://github.com/shvetsgroup/atom-glvrd",
